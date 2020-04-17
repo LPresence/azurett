@@ -1,0 +1,13 @@
+version: "3"
+services:
+    nginx1:
+        image: kaluspresence/nginx-az1:latest
+        #ports:
+        #    - 80:80
+        restart: always
+ 
+    nginx2:
+        image: kaluspresence/nginx-az1:latest
+        #ports:
+        #    - 80:80
+        restart: always
